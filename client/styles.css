@@ -5,35 +5,27 @@ html {
 
 body{ 
   color: white;
+  font-family: 'Oxygen', sans-serif;
   padding-top: 50px;
 }
 
 .libraryArtist{ 
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-.libraryTitle{ 
-  font-family: 'Oxygen', sans-serif;
-
+  color: LightSteelBlue;
 }
 
 .queueArtist{ 
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-
-}
-
-.queueTitle{
-  font-family: 'Oxygen', sans-serif;
+  color: LightSteelBlue;
 }
 
 .libTitle{ 
   font-family: 'Raleway', sans-serif;
   padding-bottom: 10px;
+  width: 30%;
 }
 .queueHolder{ 
   font-family: 'Raleway', sans-serif;
   padding-bottom: 10px;
+  width: 30%;
 }
 
 audio{ 
