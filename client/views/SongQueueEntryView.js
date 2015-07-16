@@ -6,7 +6,7 @@ var SongQueueEntryView = Backbone.View.extend({
 
   events: { 
     'click': function(){ 
-      this.model.dequeue(); // what asbout play? is it deleguaded to app model and then to lib view?
+      this.model.dequeue();
     }
   },
 

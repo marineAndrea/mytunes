@@ -43,6 +43,7 @@ describe('SongQueue', function() {
       song2 = songQueue.at(1);
       expect(songQueue.length).to.equal(2);
       songQueue.at(0).trigger('ended');
+      console.log(songQueue)
       expect(songQueue.length).to.equal(1);
       expect(songQueue.at(0)).to.equal(song2);
     });
