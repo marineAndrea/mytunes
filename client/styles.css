@@ -1,0 +1,56 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+}
+
+body{ 
+  color: white;
+  padding-top: 50px;
+}
+
+.libraryArtist{ 
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.libraryTitle{ 
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+.queueArtist{ 
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+
+}
+
+.queueTitle{
+  font-family: 'Oxygen', sans-serif;
+}
+
+.libTitle{ 
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 10px;
+}
+.queueHolder{ 
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 10px;
+}
+
+audio{ 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+  padding-bottom: 40px;
+}
+
+.library {
+  float: right;
+  margin-right: 20px;
+}
+
+.queue { 
+  float: left;
+  margin-left: 20px;
+}
+
